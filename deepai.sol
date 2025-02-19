@@ -1,12 +1,8 @@
 /**
  *
  *
-   $FtKNOX on base chain
-   https://FtKNOX.xyz
-   wp: https://FtKNOX.org
-   https://x.com/ftknoxbtcreserve
-   https://t.me/ftknoxbtcreserve
-
+   $DeepAI on base chain
+   https://deepAIagent.io
 
    Contract features:
    100,000,000 tokens
@@ -1143,7 +1139,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract FtKnox is ERC20, Ownable {
+contract DeepAI is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1152,7 +1148,7 @@ contract FtKnox is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://FtKnox.xyz";
+    string public websiteLink = "https://deepAIagent.io";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1206,7 +1202,7 @@ contract FtKnox is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("ft knox bitcoin reserve", "FtKNOX") {
+    constructor() ERC20("deep ai agent", "DeepAI") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
