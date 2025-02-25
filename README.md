@@ -1,5 +1,5 @@
-# deep ai agent
+# patty coin
 
-$DeepAI agent on base chain
+$PATTY agent on base chain
 
-- https://deepAIagent.io
+
