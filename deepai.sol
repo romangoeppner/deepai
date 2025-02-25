@@ -1,8 +1,8 @@
 /**
  *
  *
-   $DeepAI on base chain
-   https://deepAIagent.io
+   $PATTY on base chain
+   
 
    Contract features:
    100,000,000 tokens
@@ -1229,9 +1229,9 @@ contract DeepAI is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0xC3BA151FE2f543a08Cd135fF12C4e13dB66C3442); // Community Funds
-        marketingWallet = address(0xfCBf4e2d053680A476DCd1150Ce97CafB6037Ed5); // Marketing Funds
-        developerWallet = address(0xDEB333a3240eb2e1cA45D38654c26a8C1AAd0507); // Developer Funds
+        communityWallet = address(0xE0cDD0c2F2A2A0B74d504197A8BCBe3C5E100016); // Community Funds
+        marketingWallet = address(0x0c7Dc46755daD410725E99a2f220b6719db51504); // Marketing Funds
+        developerWallet = address(0xb2944c048592C8D45afB3ed4b3d660b753760616); // Developer Funds
 
         _mint(address(this), totalSupply);
 
